@@ -21,7 +21,7 @@ path_org = os.getcwd()
 ###################################
 #      Creating folders
 ###################################
-for i in range(0,100):
+for i in range(0,20):
     os.system("cp analize.py run%i/res"%i)
 ###################################
 
@@ -29,7 +29,7 @@ for i in range(0,100):
 #       Submiting jobs
 ###################################
 #for i in xrange(5):
-for i in range(0,100):
+for i in range(0,20):
     os.chdir("run%i/res"%i)
     os.system("python analize.py")
     os.chdir(path_org)
