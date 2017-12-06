@@ -58,8 +58,11 @@ their website, some important requirement for libra-QE are given here.
  - pseudo_dir = 'path of pseudo potential files',
  - prefix = 'xi', i varies for different electronic states, eg., for S0, pseudo_dir = "x0" 
  - nspin = 2, this is for spin polarized calculation
- - K_POINTS automatic, For current version, later it will be extended for gamma points.
+ - K_POINTS automatic, For current version, later multiple k-points could be included.
    1 1 1  0 0 0
+   or use
+   K_POINTS gamma, This results faster calculation as one half of the wavefunction is optimized
+   during SCF calculation. The other half is reconstructed using libra library
  - OCCUPATIONS, This is the most important input specification for Delta-SCF calculation
    Alpha and beta spins orbitals occupations are provided. Single line break is requred between them.
    Although integer occupation number is provided, if SCF does not converge due
