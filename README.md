@@ -8,6 +8,7 @@
 
 ## Clone or Download libra-qe_interface
    You can download ZIP file in to your computer or clone entire folder in to your local working directory.
+   > Libra-X is located here [Libra-X]
    > For cloning, Copy path to clipboard, then go to your local working directory and type <br/>
    > git clone path-of-libra-qe_interface <br/>
 
@@ -124,3 +125,4 @@ their website, some important requirement for libra-QE are given here.
 [Quantum Espresso]: <http://www.msg.ameslab.gov/gamess/>
 [Libra]: <http://www.acsu.buffalo.edu/~alexeyak/libra/index.html>
 [link1]: <http://www.acsu.buffalo.edu/~alexeyak/libra/installation.html>
+[Libra-X]:<https://github.com/Quantum-Dynamics-Hub/Libra-X>
