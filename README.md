@@ -8,9 +8,11 @@
 
 ## Clone or Download libra-qe_interface
    You can download ZIP file in to your computer or clone entire folder in to your local working directory.
-   > Libra-X is located here [Libra-X]
+   > Libra-X is located here in Quantum-Dynamics-Hub: [Libra-X]. This will show you the master branch. Check out latest updates on the devel branch.  <br/>
    > For cloning, Copy path to clipboard, then go to your local working directory and type <br/>
    > git clone path-of-libra-qe_interface <br/>
+   > git pull origin devel will pull updated stuffs from the devel branch - do this at this point as latest
+     functionalities are stored there.
 
 ## Working with Libra-QuantumEspresso interface
    Go to libra-qe_interface. In this directory, you will find "src" and "run" folders.
